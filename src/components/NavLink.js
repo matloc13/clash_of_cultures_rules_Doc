@@ -6,10 +6,12 @@ const NavLink = (props) => {
         <Link {...props} getProps={({ isCurrent }) => {
             return {
                 style: {
-                    color: isCurrent ? "red" : "blue"
+                    color: isCurrent ? "gold" : "green",
+                    fontWeight: isCurrent ? 900 : 300
                 }
             };
-        }} />
+        }}
+            className="navlink" />
     )
 }
 export default NavLink;

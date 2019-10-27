@@ -1,7 +1,7 @@
 import React from 'react';
 const Combat = () => {
     return (
-        <div>
+        <div className="container">
             <h3>Cultural Influence</h3>
             <ol>
                 <li>Target a city (atleast size 2) within range of one of your cities.  Range = the size of your city.</li>
@@ -15,6 +15,7 @@ const Combat = () => {
             </ul>
 
             <h3>Combat</h3>
+            <p>in land combat each player rolls a number of dice as they have soldiers.  each player divides thier total by 5.  So if you were to roll a 19 you would do 3 hits.</p>
 
         </div>
     )

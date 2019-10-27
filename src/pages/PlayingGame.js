@@ -6,9 +6,11 @@ import Combat from './../rulePages/Combat';
 import Actions from './../rulePages/Actions';
 import Status from './../rulePages/Status';
 import CardsBarbs from './../rulePages/CardsBarbs';
+
 const PlayingGame = () => {
     return (
-        <div>
+        <div className="game-rules container">
+
             <h2>Playing the Game</h2>
             <Router>
                 <PlayHome path="/" />

@@ -1,7 +1,7 @@
 import React from 'react';
 const Round = () => {
     return (
-        <div>
+        <div className="container">
             <p>The Game consists of 6 rounds unless someone is eliminated before that.
                 Each Round will consist of 3 turns per player.
                 Each turn will consist of 3 actions per player.
@@ -12,7 +12,7 @@ const Round = () => {
             <h4>Example of turn structure</h4>
             <ul>
                 <h2>Round</h2>
-                <li>
+                <li className="list_item">
                     <h2>Turn 1</h2>
                     <ul>
                         <li>
@@ -26,7 +26,7 @@ const Round = () => {
                         </li>
                     </ul>
                 </li>
-                <li>
+                <li className="list-Item">
                     <h2>Turn 2</h2>
                     <ul>
                         <li>
@@ -40,7 +40,7 @@ const Round = () => {
                         </li>
                     </ul>
                 </li>
-                <li>
+                <li className="list-Item">
                     <h2>Turn 3</h2>
                     <ul>
                         <li>

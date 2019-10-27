@@ -1,8 +1,8 @@
 import React from 'react';
 const PlayHome = () => {
     return (
-        <div>
-            <h1>play</h1>
+        <div className="container">
+            <h1>Let's play</h1>
         </div>
     )
 }

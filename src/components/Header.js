@@ -5,7 +5,7 @@ import NavPlay from './NavPlay';
 
 const Header = () => {
     return (
-        <header>
+        <header className="header">
             <Router>
                 <NavHome path="/*" />
                 <NavPlay path="play/*" />

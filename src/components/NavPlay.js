@@ -2,7 +2,7 @@ import React from 'react';
 import NavLink from './NavLink';
 const NavPlay = () => {
     return (
-        <nav>
+        <nav className="nav">
             <NavLink to="round">Round</NavLink>
             <NavLink to="combat">Combat</NavLink>
             <NavLink to="actions">Actions</NavLink>
